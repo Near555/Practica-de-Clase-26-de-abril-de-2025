@@ -1,0 +1,79 @@
+{
+    "usuarios": [
+      {
+        "id": 1,
+        "nombre": "Maria Gonzalez",
+        "email": "maria.g@example.com",
+        "telefono": "+34 600 123 456",
+        "direccion": {
+          "calle": "Calle Mayor",
+          "numero": 10,
+          "ciudad": "Madrid",
+          "codigoPostal": "28013"
+        },
+        "fechaRegistro": "2022-05-15",
+        "activo": true,
+        "roles": ["usuario", "editor"]
+      },
+      {
+        "id": 2,
+        "nombre": "Carlos Perez",
+        "email": "carlos.p@example.com",
+        "telefono": "+34 699 987 654",
+        "direccion": {
+          "calle": "Avenida Diagonal",
+          "numero": 456,
+          "ciudad": "Barcelona",
+          "codigoPostal": "08019"
+        },
+        "fechaRegistro": "2021-11-22",
+        "activo": true,
+        "roles": ["usuario"]
+      },
+      {
+        "id": 3,
+        "nombre": "Ana Lopez",
+        "email": "ana.l@example.com",
+        "telefono": "+34 622 555 789",
+        "direccion": {
+          "calle": "Gran Via",
+          "numero": 22,
+          "ciudad": "Valencia",
+          "codigoPostal": "46005"
+        },
+        "fechaRegistro": "2023-01-30",
+        "activo": false,
+        "roles": ["usuario", "admin"]
+      },
+      {
+        "id": 4,
+        "nombre": "Javier Martinez",
+        "email": "javier.m@example.com",
+        "telefono": "+34 688 321 654",
+        "direccion": {
+          "calle": "Plaza España",
+          "numero": 5,
+          "ciudad": "Sevilla",
+          "codigoPostal": "41013"
+        },
+        "fechaRegistro": "2022-08-10",
+        "activo": true,
+        "roles": ["usuario"]
+      },
+      {
+        "id": 5,
+        "nombre": "Laura Sanchez",
+        "email": "laura.s@example.com",
+        "telefono": "+34 677 111 222",
+        "direccion": {
+          "calle": "Paseo de Gracia",
+          "numero": 92,
+          "ciudad": "Barcelona",
+          "codigoPostal": "08008"
+        },
+        "fechaRegistro": "2023-03-05",
+        "activo": true,
+        "roles": ["usuario", "editor"]
+      }
+    ]
+  }
